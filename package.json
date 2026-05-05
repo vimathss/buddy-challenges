@@ -1,0 +1,7 @@
+{
+  "name": "buddy-challenges",
+  "private": true,
+  "scripts": {
+    "test:objects": "node --test list/03-objects/challenge-*/challenge.test.js"
+  }
+}
