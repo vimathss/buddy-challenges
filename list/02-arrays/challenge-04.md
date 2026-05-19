@@ -2,12 +2,16 @@
 
 Context: Arrays
 
-Status: Not started
+Status: Finished
 
 Exercise link: https://www.codewars.com/kata/53dc54212259ed3d4f00071c/javascript
 
 ## Solution
 
-```javascript
+```typescript
+function sum (numbers) {
+  return numbers.reduce((contador, num) => contador += num, 0)
+
+}
 
 ```
